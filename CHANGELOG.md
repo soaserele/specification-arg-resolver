@@ -1,3 +1,11 @@
+v2.6.2
+======
+* fixed pagination support for multi-level joins
+
+v2.6.1
+======
+* fixed bug which caused invalid query to be created when multiple `@JoinFetch` annotations referenced the same alias
+
 v2.6.0
 ======
 * Added support for multi-level joins. 
